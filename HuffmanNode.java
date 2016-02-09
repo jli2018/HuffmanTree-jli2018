@@ -1,3 +1,9 @@
+/**
+ * HuffmanNode class. 
+ *
+ * @author	Jessica Li
+ * @version	02/07/16
+ */
 public class HuffmanNode implements Comparable<HuffmanNode>
 {
 	private String value;
@@ -15,7 +21,7 @@ public class HuffmanNode implements Comparable<HuffmanNode>
 	{
 		value = v;
 		count = c;
-		left = null;
+		left = null; 
 		right = null;
 	}
 
